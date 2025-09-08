@@ -3,7 +3,7 @@ const router = express.Router();
 const passport = require('passport');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
-const auth = require('../middleware/auth'); // JWT middleware
+const auth = require('../Middleware/auth'); // JWT middleware
 
 
 // Traditional Signup
